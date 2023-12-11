@@ -27,3 +27,32 @@
 .header__link {
 	font-size: 16px;
 }
+.task-f {
+	margin: 40px;
+}
+.border-box {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	border: 20px dotted #000;
+	max-width: 650px;
+	border-radius: 60px;
+}
+.box-desc p {
+	font-family: monospace;
+}
+.box-desc + p {
+	font-size: large;
+}
+.box-desc {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.border-box img {
+	object-fit: cover;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
